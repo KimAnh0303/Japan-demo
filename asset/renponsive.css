@@ -1,0 +1,81 @@
+                    /* Mobie và table */
+                    
+                    @media (max-width:1023px) {
+                        .hide-on-mobie-table {
+                            display: none;
+                        }
+                        .header__seach .input_seach {
+                            width: 36rem;
+                            margin-left: 0px
+                        }
+                        /* Nav */
+                        .nav_bars {
+                            display: block;
+                        }
+                        .nav_bars-icon {
+                            float: left;
+                            padding: 30px 0;
+                            position: absolute;
+                            top: 0;
+                        }
+                        .nav-bars-2 {
+                            display: block;
+                        }
+                        .nav_bars-icon-2 {
+                            top: 0;
+                            right: 0;
+                            position: absolute;
+                            padding: 30px 0;
+                        }
+                    }
+                    /* Table */
+                    
+                    @media (min-width:740px) and (max-width:1021px) {
+                        .hide-on-table {
+                            display: none;
+                        }
+                        .header__logo {
+                            margin-left: 20%;
+                        }
+                        .header__seach .input_seach {
+                            width: 35rem;
+                            margin-left: 0px;
+                        }
+                        .header__card {
+                            display: none;
+                        }
+                        .header__logo img {
+                            margin-left: 150%;
+                            max-width: 150px;
+                        }
+                        .header__seach {
+                            padding: 0px;
+                        }
+                    }
+                    /* Mobie */
+                    
+                    @media (max-width:740px) {
+                        .hide-on-mobie {
+                            display: none;
+                        }
+                        .header__logo {
+                            margin-left: 20%;
+                        }
+                        .header__seach {
+                            padding: 0px;
+                            width: 100%;
+                        }
+                        .header__seach .input_seach {
+                            max-width: 29rem;
+                        }
+                        .header__card {
+                            display: none;
+                        }
+                        .header__logo img {
+                            margin-left: 50%;
+                            max-width: 120px;
+                        }
+                        .tab-n {
+                            display: inline-flex;
+                        }
+                    }
